@@ -259,7 +259,7 @@ pub fn hud_debug_text(
     {
         use crate::util::TimeIntervals;
 
-        if time.at_interval(2.0) {
+        if time.at_interval(2.0) || sys.cpus().is_empty() {
             sys.refresh_cpu_all();
             sys.refresh_memory();
         }

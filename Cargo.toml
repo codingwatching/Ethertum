@@ -21,14 +21,14 @@ ddgi2 = []
 
 
 [dev-dependencies]
-bevy = { version = "0.17", features = ["dynamic_linking", "file_watcher", "trace_chrome", "bevy_solari", "jpeg"] }
+bevy = { version = "0.17.2", features = ["dynamic_linking", "file_watcher", "trace_chrome", "bevy_solari", "jpeg"] }
 # cargo run --features bevy/trace_tracy
 
 
 [dependencies]
-bevy = { version = "0.17", features = ["bevy_solari", "jpeg"] }
+bevy = { version = "0.17.2", features = ["bevy_solari", "jpeg"] }
 
-avian3d = "0.4"
+avian3d = "0.4.1"
 bevy_renet = "3.0"
 # bevy_fps_controller = "0.2.3"
 # bevy_rapier3d = "0.23"

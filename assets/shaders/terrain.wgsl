@@ -10,6 +10,7 @@
 #import bevy_pbr::pbr_functions
 #import bevy_pbr::pbr_fragment
 
+/*
 #if 0
 struct DDGI1Uniforms {
     grid_origin: vec3<f32>,
@@ -83,6 +84,7 @@ fn sample_probe_irradiance(
     return textureSample(ddgi_irradiance_texture, evy_pbr::pbr_bindings::base_color_sampler, texture_coord, face).rgb;
 }
 #endif
+*/
 
 struct MyVertexOutput {
     @builtin(position) position: vec4<f32>,
